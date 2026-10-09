@@ -1,10 +1,17 @@
-# Aplicación compilada de Windows
-
-/Sistema Contable.exe
-/resources/
-
 /# Dependencias y archivos generados
 /node_modules/
 /dist/
 /build/
 *.log
+
+# Datos contables locales y copias de seguridad
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.bak
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini

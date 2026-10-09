@@ -6,6 +6,18 @@ Aplicación de escritorio para registrar operaciones contables y consultar libro
 
 - Windows
 - La carpeta completa de la aplicación, con `Sistema Contable.exe` y los archivos que lo acompañan
+- Git LFS para clonar el repositorio y descargar los archivos grandes de la aplicación
+
+## Obtener el repositorio
+
+Instala Git LFS y luego clona el repositorio. Git descargará los archivos grandes al clonar; si solo obtienes los punteros, ejecuta `git lfs pull` dentro de la carpeta:
+
+```powershell
+git lfs install
+git clone https://github.com/danuto-byte/Sistema-Contabilidad.git
+cd Sistema-Contabilidad
+git lfs pull
+```
 
 ## Iniciar la aplicación
 

@@ -1,0 +1,2 @@
+"/Sistema Contable.exe" filter=lfs diff=lfs merge=lfs -text
+/resources/app.asar filter=lfs diff=lfs merge=lfs -text
