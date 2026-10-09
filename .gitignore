@@ -1,0 +1,10 @@
+# Aplicación compilada de Windows
+
+/Sistema Contable.exe
+/resources/
+
+/# Dependencias y archivos generados
+/node_modules/
+/dist/
+/build/
+*.log
